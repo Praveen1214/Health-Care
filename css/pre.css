@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+.main-content{
+    display: flex;
+}
+.right{
+  flex: 6;
+}
+.main-content .left{
+  flex: 6;
+  width: 100%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  color: #3e2093;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left .title{
+  text-align: center;
+  width: 480px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.upload-block{
+  background-color: rgb(240, 201, 232);
+  width: 300px;
+  height: 280px;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.input-item{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color:#89125a;
+  text-decoration: underline;
+}
+
+.submit_btn{
+  font-size: 20px;
+  padding: 10px;
+  background-color:  #04000f;
+  color: white;
+  border-radius: 8px;
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.view_btn{
+  margin-left: 15px;
+  padding: 12px 35px;
+  background-color: #04000f;
+  color: #fff;
+  border-radius: 10px;
+}
+.uploadicon{
+  font-size: 100px !important;
+}
+
+

@@ -1,0 +1,84 @@
+/* CSS for Login Interface */
+body {
+    background-color: #e7cfdd;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login_form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #89125a;
+    width: 400px; /* Increased width for the form box */
+    margin: 50px auto; /* Set margin to auto and specify top and bottom margins */
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .loginpara {
+    text-align: center;
+    margin-top: 0; /* Added margin to remove extra space */
+  }
+  
+  .login_form input[type="text"],
+  .login_form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    
+  }
+  
+  #remember {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .remember-me {
+    color: #89125a;
+  }
+  
+  .login_submit {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1f425b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  
+  .login_submit:hover {
+    background-color: #333;
+  }
+  
+  .error {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  .sign-up-link {
+    margin-top: 100px;
+    text-align: center;
+    color: #89125a;
+    
+  }
+  
+  .signup-link {
+    color: #89125a;
+    text-decoration:underline;
+  }
+
+  

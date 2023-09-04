@@ -1,0 +1,72 @@
+.User_prifile{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #89125a;
+    width: 400px; /* Increased width for the form box */
+    margin: 50px auto; /* Set margin to auto and specify top and bottom margins */
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(9, 9, 234);
+    position:relative;
+    top:-20px;
+}
+.fname{
+    width:410px;
+    height:30px;
+}
+.lname{
+    width:410px;
+    height:30px;
+}
+.email{
+    width:410px;
+    height:30px;
+}
+.mobno{
+    width:410px;
+    height:30px;
+}
+.nicno{
+    width:410px;
+    height:30px;
+}
+.uname{
+    width:410px;
+    height:30px;
+}
+.password{
+    width:410px;
+    height:30px;
+}
+.idclass{
+    width:410px;
+    height:30px;
+}
+.Address{
+    width:410px;
+    height:30px;
+}
+.submit_btn{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1f425b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  
+  .submit_btn:hover {
+    background-color: #333;
+  }

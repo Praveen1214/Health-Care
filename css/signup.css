@@ -1,0 +1,74 @@
+/* CSS for Signup Interface */
+*{
+ 
+  font-family: Arial, sans-serif;
+ 
+}
+
+.signin {
+  background-color: #fff;
+  color: #89125a;
+  width: 400px; /* Increased width for the signup form */
+  margin: 50px auto; /* Center the signup form on the page */
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.signinpara {
+  text-align: center;
+  margin-top: 0; /* Added margin to remove extra space */
+  font-family: Arial, sans-serif;
+}
+
+.signin_form input[type="text"],
+.signin_form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+#remember {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.remember-me {
+  margin-top: 20px;
+  color: #89125a;
+}
+
+.signin_submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #1f425b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signin_submit:hover {
+  background-color: #333;
+}
+
+.error {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.sign-up-link {
+  text-align: center;
+  color: #89125a;
+}
+
+.signup-link {
+  color: #89125a;
+  text-decoration: underline;
+}

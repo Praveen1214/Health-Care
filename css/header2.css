@@ -1,0 +1,85 @@
+.content{
+  display: flex;
+  margin-left: 50px;
+
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:25px;
+  margin-right: 50px;
+  font-family: "Poppins" , sans-serif;
+  margin-left: 80px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header-title p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.header-title i {
+  margin-right: 0.5rem;
+}
+
+.header-title small {
+  font-size: 1.2rem;
+}
+
+.user_options {
+  display: flex;
+  align-items: center;
+}
+
+.user_options button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.user_options #mark {
+  margin-left: 1rem;
+}
+
+.user_options #mark i {
+  transform: rotate(-90deg);
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  min-width: 150px;
+  z-index: 1;
+}
+
+.options li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+.options a {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.options a i {
+  margin-right: 0.5rem;
+}
+
+.options a span {
+  font-size: 0.9rem;
+}

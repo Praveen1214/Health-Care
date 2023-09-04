@@ -1,0 +1,106 @@
+.Patient_profile{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #89125a;
+    width: 400px; /* Increased width for the form box */
+    margin: 50px auto; /* Set margin to auto and specify top and bottom margins */
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /*position: relative;
+    right: 350px;*/
+}
+.show_username{
+  color:rgb(55, 0, 50);
+  font-size: 16px;
+
+  padding: auto;
+  
+}
+.wrapper{
+    float:right;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #89125a;
+    width: 300px; /* Increased width for the form box */
+    margin: 50px auto; /* Set margin to auto and specify top and bottom margins */
+  padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position:relative;
+    left:-250px;
+}
+.img_upload_btn {
+    display: block;
+    width: 190px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1f425b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  
+  .img_upload_btn:hover {
+    background-color: #333;
+  }
+
+ 
+  .profile_update{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1f425b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position:relative;
+    right:20px;
+
+  }
+  .profile_update:hover{
+    background-color: #3db249;
+  }
+  .profile_logout{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1f425b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position:relative;
+    top:-45px;
+    left:135px;
+  }
+  .profile_logout:hover {
+    background-color: #bc5050;
+  }
+  .profile_delete{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1f425b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position:relative;
+    top:-90px;
+    left:290px;
+  }
+  .profile_delete:hover  {
+    background-color: #bc5050;
+  }

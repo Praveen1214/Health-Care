@@ -1,0 +1,81 @@
+html, body {
+  height: 100vh;
+  padding: auto;
+  
+  
+} 
+
+
+
+.container {
+  padding: 5px;
+ font-family: "Poppins" , sans-serif;;
+  
+  
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  background-color: transparent;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid #02b6ff;
+}
+
+hr.col-md-12 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+hr[style="border-top: 2px solid #ff5252;"] {
+  border-top-color: #ff5252;
+}
