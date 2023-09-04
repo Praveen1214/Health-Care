@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/add_new_cus.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+          <h1>Add New Patinet</h1>
+        </div>
+        <div class="panel-body">
+          <form action="includes/add_new_patient.php" method="post">
+
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Firstname"
+                name="Firstname"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Lastname"
+                name="Lastname"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Email"
+                name="Email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="mobile_no">Mobile_No</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Mobile_No"
+                name="Mobile_No"
+              />
+            </div>
+            <div class="form-group">
+              <label for="nic_no">Nic_No</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Nic_No"
+                name="Nic_No"
+              />
+            </div>
+            <div class="form-group">
+              <label for="User_Name">user_name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="User_Name"
+                name="User_Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="Password"
+                name="Password"
+              />
+              <div id="address" class="form-group">
+                <label for="User_Name">	Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="	Address"
+                  name="Address"
+                />
+              </div>
+            </div>
+            <input type="submit" class="btn btn-primary" />
+          </form>
+    
+    <!-- result message -->
+    <div id="customer_acknowledgement" class="col-md-12 h5 text-success font-weight-bold text-center" style="font-family: sans-serif;"></div>
+    
+  </div>
+</body>
+</html>
